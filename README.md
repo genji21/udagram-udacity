@@ -4,7 +4,7 @@
 
 ---
 
-Indsadadadsadsadsa dsadsasda this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the teest aDpplication needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+ this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the teest aDpplication needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
 
 After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually undersqtand all the moving parts.
 
@@ -73,11 +73,11 @@ The e2e tests are using Protractor and Jasmine.
 
 ## Application deployed link 
 (The link below may be expired, please login again aws account)
-- Udagram Frontend: http://udagram-fe.s3-website-us-east-1.amazonaws.com 
-- Udagram API: http://udagram-api.us-east-1.elasticbeanstalk.com/
+- Udagram Frontend: http://phidt1-udagram-fe.s3-website-us-east-1.amazonaws.com
+- Udagram API: http://phi-udagram-env.us-east-1.elasticbeanstalk.com/
 
 ## Project Setup
-1. Clone the project - `https://github.com/thangplc/udagram-udacity.git`
+1. Clone the project - `https://github.com/genji21/udagram-udacity`
 2. Build & Run Frontend
    1. Go into the project directory - `cd udagram/udagram-frontend`
    2. Install the dependencies - `npm install`
@@ -92,7 +92,7 @@ The e2e tests are using Protractor and Jasmine.
 6. Setup ENV variables:     
 
 ```
-POSTGRES_HOST = "udagram.cpmbomf1vmkr.us-east-1.rds.amazonaws.com"
+POSTGRES_HOST = "database-1.coud0bgtaiad.us-east-1.rds.amazonaws.com"
 POSTGRES_USERNAME = "postgres"
 POSTGRES_DB = "postgres"
 POSTGRES_PASSWORD = "postgres"
